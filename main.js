@@ -71,16 +71,7 @@ document.getElementById("btnTinhSoNT").onclick = function () {
   //Dau vao
   soN = document.getElementById("txtSoNT").value * 1;
   //Xu ly
-  // var kq = document.createElement("div");
-  // kq.innerHTML = "";
   var kq = "";
-  // for (var i = 1; i <= 10; i++) {
-  //   if (i % 2 == 0) {
-  //     kq = kq + "<div class='alert alert-danger'> Div chẵn : " + i + "</div>";
-  //   } else {
-  //     kq = kq + "<div class='alert alert-primary'> Div lẻ : " + i + "</div>";
-  //   }
-  // }
 
   for (var i = 1; i <= soN; i++) {
     var flag = soNT(i);
